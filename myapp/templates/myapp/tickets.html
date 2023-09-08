@@ -1,0 +1,215 @@
+{%extends "base.html"%}
+
+{% block title%}
+    ticket booking
+{%endblock%}
+
+{%block content%}
+<div id="section-Tickets">
+    
+    <a href="{%url "home_page"%}"><svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="#47c6ed" class="bi bi-arrow-left-circle-fill back ml-2 mt-2" onclick="display('sectionhome')" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+    </svg>
+    </a>
+    <h1 style="color:#75726c; font-weight:bold; font-family:Roboto" class="ml-2 mt-3 mr-2 d-none d-md-block">Digital Zoological Park Timings</h1>
+    <p style="color:#75726c; font-weight:bold; font-size:22px; font-family:Roboto" class="ml-2 mt-3 mr-2  d-md-none">Digital Zoological Park Timings</p>
+    <p style="color:black; font-weight:bold; font-size:18px; font-family:Roboto" class="ml-2 mt-3 mr-2  text-center d-md-none">Monday -<span class="bg-danger text-white p-1">Closed / Holiday</span></p>
+    <p style="color:black; font-weight:bold; font-size:18px; font-family:Roboto" class="ml-2 mt-3 mr-2 text-center  d-md-none">Tue-Sun -<span class="bg-success text-white p-1">8am - 5pm</span></p>
+    <h3 style="color:black; font-weight:bold; font-family:Roboto" class="ml-2 mt-4 text-center mr-2 d-none d-md-block">Monday -<span class="bg-danger text-white p-1">Closed / Holiday</span></h3>
+    <h3 style="color:black; font-weight:bold; font-family:Roboto" class="ml-2 mt-4 text-center mr-2 d-none d-md-block">Tue-Sun -<span class="bg-success text-white p-1">8am - 5pm</span></h3>
+    <h1 style="color:#75726c; font-weight:bold; font-family:Roboto" class="ml-2 mt-5 mr-2 d-none d-md-block">Digital Zoological Park Tickets & Packages</h1>
+    <p style="color:#75726c; font-weight:bold; font-size:22px; font-family:Roboto" class="ml-2 mt-5 mr-2  d-md-none">Digital Zoological Park Tickets & Packages</p>
+    <div class="container p-4 bg-ticket mt-4 shadow ">
+        <div class="row ">
+            <div class="col-12 col-md-6 col-lg-4 mt-md-5 mt-2 mb-2">
+                <button type="button" class="btn btn-outline-primary w-80" data-toggle="modal" data-target="#exampleModal">
+                    View Weekday Charges
+                </button>
+                <div class="modal fade  mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-primary" id="exampleModalLabel">Weekday Charges</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">50 per Adult</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">30 per Child (3 to 10 yrs)</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">100 for Still Camera</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">500 for Video Camera</span></i></a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <a href="{%url 'payments_page'%}"><button type="button" class="btn btn-primary" onclick="display('section-load')">Book Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-md-5 mt-2 mb-2">
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal1">
+                    View Weekend & Holidays Charges
+                </button>
+                <div class="modal fade  mt-5" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-success" id="exampleModalLabel">Weekend & Holidays Charges</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body ">
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">60 per Adult</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">40 per Child (3 to 10 yrs)</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">100 for Still Camera</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">500 for Video Camera</span></i></a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <a href="{%url 'payments_page'%}"><button type="button" class="btn btn-primary" onclick="display('section-load')">Book Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-md-5 mt-2 mb-2">
+                <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal2">
+                    View Buggy / Batter Operated Vehicle Fee
+                </button>
+                <div class="modal fade mt-5" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-warning" id="exampleModalLabel">Buggy / Batter Operated Vehicle Fee</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body ">
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">60 per Adult</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">40 per Child ( 10 yrs)</span></i></a> <br />
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <a href="{%url 'payments_page'%}"><button type="button" class="btn btn-primary" onclick="display('section-load')">Book Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-md-5 mt-2 mb-2">
+                <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal3">
+                    View Lion & Tiger Safari Charges
+                </button>
+                <div class="modal fade  mt-5" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-danger" id="exampleModalLabel">Lion & Tiger Safari Charges</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body ">
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">50 per Adult</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">30 per Child ( 10 yrs)</span></i></a> <br />
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <a href="{%url 'payments_page'%}"><button type="button" class="btn btn-primary" onclick="display('section-load')">Book Now</button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-md-5 mt-2 mb-2">
+                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal4">
+                    View Nocturnal Animal House Fee
+                </button>
+                <div class="modal fade  mt-5" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-info" id="exampleModalLabel">Nocturnal Animal House Fee</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body ">
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">20 per Adult</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">10 per Child ( 10 yrs)</span></i></a> <br />
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <a href="{%url 'payments_page'%}"><button type="button" class="btn btn-primary" onclick="display('section-load')">Book Now</button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-md-5 mt-2 mb-2">
+                <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">
+                    View Film Shooting Fee
+                </button>
+                <div class="modal fade  mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-secondary" id="exampleModalLabel">Film Shooting Fee</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body ">
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">8500 per Day Entry Fee for film shootings</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;">1500 for Generator trucks for film shooting</span></i></a> <br />
+                                <a><i class="fa-solid fa-indian-rupee-sign " style="color:#75726c;"><span style="font-size:16px; font-family:Roboto;"> 1000 for Car / Jeep</span></i></a> <br />
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <a href="{%url 'payments_page'%}"><button type="button" class="btn btn-primary" onclick="display('section-load')">Book Now</button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 style="color:#75726c; font-weight:bold; font-family:Roboto" class="ml-2 mt-5 mr-2 d-none d-md-block">Payments & Offers</h1>
+    <p style="color:#75726c; font-weight:bold; font-size:22px; font-family:Roboto" class="ml-2 mt-5 mr-2  d-md-none">Payments & Offers</p>
+    <div class="d-flex flex-row justify-content-around">
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-solid fa-credit-card payment-icon  d-none d-md-block" onclick="display('section-load')"></i></a>
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-brands fa-cc-visa payment-icon  d-none d-md-block" onclick="display('section-load')"></i></a>
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-brands fa-cc-mastercard payment-icon  d-none d-md-block" onclick="display('section-load')"></i></a>
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-brands fa-cc-amazon-pay payment-icon  d-none d-md-block" onclick="display('section-load')"></i></a>
+    </div>
+    <div class="d-flex flex-row justify-content-around">
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-solid fa-credit-card payment-icon-sm  d-md-none" onclick="display('section-load')"></i></a>
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-brands fa-cc-visa payment-icon-sm  d-md-none" onclick="display('section-load')"></i></a>
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-brands fa-cc-mastercard payment-icon-sm   d-md-none" onclick="display('section-load')"></i></a>
+        <a href="{%url 'payments_page'%}" style="color:black;"><i class="fa-brands fa-cc-amazon-pay payment-icon-sm  d-md-none" onclick="display('section-load')"></i></a>
+    </div>
+    <h1 style="color:#75726c; font-weight:bold; font-family:Roboto" class="ml-2 mt-5 mb-3 mr-2 d-none d-md-block">UPI Payments</h1>
+    <p style="color:#75726c; font-weight:bold; font-size:22px; font-family:Roboto" class="ml-2 mb-3 mt-5 mr-2  d-md-none">UPI Payments</p>
+    <div class="d-flex flex-row justify-content-around">
+        <a href="{%url 'payments_page'%}" ><img src="https://seeklogo.com/images/P/paytm-logo-EC097E9287-seeklogo.com.png" class="upi-pic w-50 ml-2" onclick="display('section-load')" /></a>
+        <a href="{%url 'payments_page'%}" ><img src="https://seeklogo.com/images/G/google-pay-logo-9B9D88A7FB-seeklogo.com.png" class="upi-pic w-50" onclick="display('section-load')" /></a>
+        <a href="{%url 'payments_page'%}" ><img src="https://seeklogo.com/images/P/phonepe-logo-C4BD70AF79-seeklogo.com.png" class="upi-pic w-50" onclick="display('section-load')" /></a>
+        <a href="{%url 'payments_page'%}" ><img src="https://seeklogo.com/images/A/amazon-pay-logo-3C60650273-seeklogo.com.png" class="upi-pic w-50" onclick="display('section-load')" /></a>
+    </div>
+   
+
+
+
+</div>
+{%endblock%}

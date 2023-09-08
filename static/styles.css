@@ -1,0 +1,1573 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg {
+    background-size: cover;
+    text-align: left;
+
+}
+
+.whale-lg {
+    background-image: url("https://media.istockphoto.com/photos/young-humpback-whale-in-blue-water-picture-id1164479946?k=20&m=1164479946&s=612x612&w=0&h=PUXzP_luTfnj-Csgk6rn4-hR4KyOzqzQLgOZRGY8ZXg=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.whale-mb {
+    background-image: url("https://media.istockphoto.com/photos/killer-whale-leaping-out-of-the-water-picture-id1074800012?k=20&m=1074800012&s=612x612&w=0&h=wTuwPVJs-nyUI-jcKDqAgUuhTIu8Po9e4d48IxOSGVw=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.shark-lg {
+    background-image: url("https://media.istockphoto.com/photos/great-white-shark-picture-id925628028?k=20&m=925628028&s=612x612&w=0&h=QIYH88DjTpxT4hzh3xkbH-Gqct2DR_WuAgnuaAtS82Y=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.shark-mb {
+    background-image: url("https://media.istockphoto.com/photos/great-white-shark-fings-and-teeth-picture-id515829802?k=20&m=515829802&s=612x612&w=0&h=yhxYeI1D5Awjxt7AP0GMOpphUFCeUjOh8EHRtAya7OM=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.dolphin-lg {
+    background-image: url("https://media.istockphoto.com/photos/dolphins-jumping-picture-id476550349?k=20&m=476550349&s=612x612&w=0&h=NTUJ3tJDJgdKZnto0Ss3nquQgP3bdaHfs2yYyzxYQrE=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.dolphin-mb {
+    background-image: url("https://media.istockphoto.com/photos/bottlenose-dolphin-tursiops-truncatus-adult-leaping-honduras-picture-id1250684325?k=20&m=1250684325&s=612x612&w=0&h=iYuv5LqaydiV1mzM6qa5QzRLHR1Io5_rbQRj_Kkwza4=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.sword-fish-lg {
+    background-image: url("https://media.istockphoto.com/photos/marlin-reef-picture-id178411820?k=20&m=178411820&s=612x612&w=0&h=x8DIcGgWk9Lx2uSF5oDRPjSBf5slUr-lO40nU1iZfiQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.sword-fish-mb {
+    background-image: url("https://media.istockphoto.com/photos/marlin-fish-picture-id178871891?k=20&m=178871891&s=612x612&w=0&h=OioHmrXrPKPPN_ewigkDdzjO63AmjFaHrGImB_Nmats=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.sea-horse-lg {
+    background-image: url("https://media.istockphoto.com/photos/horse-sea-picture-id94324902?k=20&m=94324902&s=612x612&w=0&h=CniLHyviwif-4qkWsV0Je4Lojlqcv5U6eIrYcvyDsjE=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.sea-horse-mb {
+    background-image: url("https://media.istockphoto.com/photos/hippocampus-kuda-seahorse-picture-id482901483?k=20&m=482901483&s=612x612&w=0&h=OyTS-ssNKuedLDMcR-RYNTvkglOPOn2SX3XEBIfjp78=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.tuna-fish-lg {
+    background-image: url("https://media.istockphoto.com/photos/bluefin-tuna-thunnus-thynnus-saltwater-fish-picture-id1334276621?k=20&m=1334276621&s=612x612&w=0&h=8Nk2EXzX-GHY4SxfEkgWu8kF_-D3Ilq3nJxsauFBI5I=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.tuna-fish-mb {
+    background-image: url("https://media.istockphoto.com/photos/group-of-fish-in-the-sea-picture-id904957776?k=20&m=904957776&s=612x612&w=0&h=D6qzlA3RWu7iZXoH_L6rqsTSNGE73Cfi4zSMomRebN0=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.ray-fish-lg {
+    background-image: url("https://media.istockphoto.com/photos/several-stingrays-among-fish-swim-in-the-blue-sea-picture-id1205766858?k=20&m=1205766858&s=612x612&w=0&h=53NOtxDZlG9kUackqcgsznzJBMvmY2E9o3lTI1CWe_g=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.ray-fish-mb {
+    background-image: url("https://media.istockphoto.com/photos/manta-ray-at-roca-partida-mexico-picture-id1013296974?k=20&m=1013296974&s=612x612&w=0&h=pSMJohVABdWkaSoWdWoVCuAPcl-TcFNhc25Ohh2Z2ic=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.catfish-lg {
+    background-image: url("https://media.istockphoto.com/photos/big-catfish-in-river-jumping-out-of-water-3d-render-picture-id1066715412?k=20&m=1066715412&s=612x612&w=0&h=hE-K1tVN2lIEL7lVOouydnaJKuvoWPVTkckNHj8Fm9s=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.catfish-mb {
+    background-image: url("https://media.istockphoto.com/photos/underwater-photo-of-the-catfish-silurus-glanis-giant-fish-from-ebro-picture-id1010110118?k=20&m=1010110118&s=612x612&w=0&h=-lkPzxMvjlqe1z8TvbDlg9V-OihipPTV-CWERLPcQ30=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.star-fish-lg {
+    background-image: url("https://media.istockphoto.com/photos/after-the-storm-picture-id637247886?k=20&m=637247886&s=612x612&w=0&h=xMkbyBE64VQHabxTdSOiSUt2zdBMUDBN38khWzXXerg=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.star-fish-mb {
+    background-image: url("https://media.istockphoto.com/photos/orange-starfish-picture-id172220216?k=20&m=172220216&s=612x612&w=0&h=ye_Qy5ipPkufySqKba2x0D1g0KFPs0iLUg4Kv_z1MC4=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.squid-lg {
+    background-image: url("https://media.istockphoto.com/photos/reef-red-squid-with-big-eyes-deep-underwater-red-sea-egypt-ocean-picture-id1217231673?k=20&m=1217231673&s=612x612&w=0&h=vurwWA75gUPWe6BuOf4fUyYmqQD6YTCPkuie1psOxaA=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.squid-mb {
+    background-image: url("https://media.istockphoto.com/photos/octopus-in-water-picture-id947451552?k=20&m=947451552&s=612x612&w=0&h=IGOJNIGQMtE5rP78z61SWe3wOo1w1I4E7KAzdTKWzDI=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.octopus-lg {
+    background-image: url("https://media.istockphoto.com/photos/octopus-picture-id1153862170?k=20&m=1153862170&s=612x612&w=0&h=NWoKjbq_ZE2d1SpPhfpFpaUuwWsDvIyuPOT2K3rvCjI=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.octopus-mb {
+    background-image: url("https://media.istockphoto.com/photos/octopus-on-a-glass-picture-id1219413498?k=20&m=1219413498&s=612x612&w=0&h=XyRmdb2nPG26_CS0bgpiSOYzRIws3cxX4U-4XdXTsF8=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.jelly-fish-lg {
+    background-image: url("https://media.istockphoto.com/photos/jellyfish-3-picture-id469858644?k=20&m=469858644&s=612x612&w=0&h=FyxOznBivgp0LdvYGWESb3CiziSq8CiLefjHFqau0fY=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.jelly-fish-mb {
+    background-image: url("https://media.istockphoto.com/photos/jelly-fish-picture-id683444478?k=20&m=683444478&s=612x612&w=0&h=JSaD_NiOoh_C0LBqBokxQjp54IrBjCud42Q3rJ34bRo=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.crocodile-mb {
+    background-image: url("https://media.istockphoto.com/photos/the-american-crocodile-is-a-species-of-crocodilian-found-in-the-it-picture-id1360280676?k=20&m=1360280676&s=612x612&w=0&h=PSc-PvjQXb1tLB64qThAakl7NZXtUqgaEfOYQZksHmU=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.crocodile-lg {
+    background-image: url("https://media.istockphoto.com/photos/saltwater-crocodile-picture-id108128106?k=20&m=108128106&s=612x612&w=0&h=cNPzO0W_B90zajiJaAIn-UtS0LVzJfG0Wx4KhvGA5aI=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.tortoise-mb {
+    background-image: url("https://media.istockphoto.com/photos/giant-tortoise-picture-id1313495526?k=20&m=1313495526&s=612x612&w=0&h=XuiibiaVU3BTHS_UrV7eRu690lMGXwWE3H6f0axMQsk=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.tortoise-lg {
+    background-image: url("https://media.istockphoto.com/photos/jonathan-giant-tortoise-at-plantation-house-island-of-st-helena-picture-id148225523?k=20&m=148225523&s=612x612&w=0&h=9WEfaCSe5rfDm2AJL1zkBojuSrPxGQmGwFZIf0WpfJw=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.aligator-mb {
+    background-image: url("https://media.istockphoto.com/photos/alligator-closeup-in-duckweed-picture-id1197023343?k=20&m=1197023343&s=612x612&w=0&h=oW0Wq4OP0pYmhX2jFVOL6k0QmFzdSoPmkfdbu0CjZh4=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.aligator-lg {
+    background-image: url("https://media.istockphoto.com/photos/gharial-picture-id1222029176?k=20&m=1222029176&s=612x612&w=0&h=gB6UAIoMY_1ETegVzdxFF_VY1T_q3oYYYdwDO1Nekms=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.monitor-lizard-mb {
+    background-image: url("https://media.istockphoto.com/photos/monitor-on-tree-picture-id486572299?k=20&m=486572299&s=612x612&w=0&h=BhSwN-lT0nA_XNTVyCXw7F0qWUC1dgJxIbX_B-Ocr3c=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.monitor-lizard-lg {
+    background-image: url("https://media.istockphoto.com/photos/large-monitor-lizard-in-sri-lanka-picture-id1369224915?k=20&m=1369224915&s=612x612&w=0&h=9yO7uNqFyDl1lB3wU7_hfVe-VhfNnE7nYh7u_KgeATE=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.chameleon-mb {
+    background-image: url("https://media.istockphoto.com/photos/colorful-panther-chameleon-picture-id1205604651?k=20&m=1205604651&s=612x612&w=0&h=eJVU0dvr6aKdQm4-xxn_Yk19z7NcSPn2bUEqKTg6L38=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.chameleon-lg {
+    background-image: url("https://media.istockphoto.com/photos/chameleon-picture-id1051543798?k=20&m=1051543798&s=612x612&w=0&h=h-RCw8kCWkJUchcWnA5Mej5ykIal_t-EdhKi7DWRwbY=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.iguana-mb {
+    background-image: url("https://media.istockphoto.com/photos/iguana-portrait-picture-id1047042610?k=20&m=1047042610&s=612x612&w=0&h=UCzpumL5si8BnT6z-ImUrDupcVgSESY8pn3bdHwvnu8=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.iguana-lg {
+    background-image: url("https://media.istockphoto.com/photos/green-iguana-picture-id507681820?k=20&m=507681820&s=612x612&w=0&h=eg59axnbTDoXPUygfA9yI8PUJnv5BXxJo6U63i1b3HQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.komodo-dragon-mb {
+    background-image: url("https://media.istockphoto.com/photos/komodo-dragon-varanus-komodoensis-picture-id469579597?k=20&m=469579597&s=612x612&w=0&h=BvQKFaDjMHRJ5edzwdvG0eCEFDMnpfuxWWMu38Nez60=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.komodo-dragon-lg {
+    background-image: url("https://media.istockphoto.com/photos/komodo-dragon-sticking-out-tongue-komodo-national-park-picture-id1210267886?k=20&m=1210267886&s=612x612&w=0&h=xsnimXDibCQ4_67RaHa8PRHfq-BdU0RIUZc_XZGtdrQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.king-cobra-mb {
+    background-image: url("https://media.istockphoto.com/photos/cobra-picture-id1356211419?k=20&m=1356211419&s=612x612&w=0&h=j8M5gv--SnB6XmTAm4MLUfiDK-ShAN07pE8H_W8QXVw=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.king-cobra-lg {
+    background-image: url("https://media.istockphoto.com/photos/king-cobra-picture-id160360750?k=20&m=160360750&s=612x612&w=0&h=LYNaGG4HXnrnFyPnUwAgxWQ5c4oOp5U0WWC5KnG4hbg=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.python-mb {
+    background-image: url("https://media.istockphoto.com/photos/wild-snake-on-a-black-background-picture-id134444197?k=20&m=134444197&s=612x612&w=0&h=uZvq9jxEJdLA2U4jRPu_ETT92lebF1J_nFfR9KQU-Uo=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.python-lg {
+    background-image: url("https://media.istockphoto.com/photos/python-snake-portrait-picture-id637614918?b=1&k=20&m=637614918&s=170667a&w=0&h=RpqeGM5agDKC9oe4OGJN4upoQJlo-XgeYfnD54c5bQE=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.bull-frog-mb {
+    background-image: url("https://media.istockphoto.com/photos/frog-sitting-on-green-leaves-in-the-pond-picture-id538876687?k=20&m=538876687&s=612x612&w=0&h=WbBR-CCCAEJVKonaLuXYs3D1vHWbQOCe4vROya1izNI=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.bull-frog-lg {
+    background-image: url("https://images.unsplash.com/photo-1524689222688-670203109043?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1bGwlMjBmcm9nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.gila-monster-mb {
+    background-image: url("https://media.istockphoto.com/photos/heloderma-suspectum-picture-id152536956?k=20&m=152536956&s=612x612&w=0&h=5PZsRv76QTpvrsgqD0b2i4-8_WjUrm1B2sDQXVVwWqM=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.gila-monster-lg {
+    background-image: url("https://media.istockphoto.com/photos/gila-monster-saguaro-national-park-arizona-picture-id173861149?k=20&m=173861149&s=612x612&w=0&h=SAf1QfgKSoU0GWPvD2Vg0R3BavPUJSp1r7mDMdrCrJs=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.black-mamba-mb {
+    background-image: url("https://media.istockphoto.com/photos/white-mamba-snake-picture-id460155949?k=20&m=460155949&s=612x612&w=0&h=OJu7XIOmjgoBenm8QhuOqFlEN1ibjrydVLqOTNxKKGQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.black-mamba-lg {
+    background-image: url("https://media.istockphoto.com/photos/highly-venomous-snake-black-mamba-in-terrarium-picture-id941204922?k=20&m=941204922&s=612x612&w=0&h=iWomErKhMFoJO32e81dBty52UwKCg6u9yFasKgz-iRM=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.african-lion-lg {
+    background-image: url("https://media.istockphoto.com/photos/lion-in-high-grass-picture-id494856046?b=1&k=20&m=494856046&s=170667a&w=0&h=bn3edOnQHL935cnRimyaOvBFlkT0U1arzqWGPTumxcM=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.eagle-mb {
+    background-image: url("https://images.unsplash.com/photo-1596465467444-b6e43222e5f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZWFnbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.vulture-mb {
+    background-image: url("https://media.istockphoto.com/photos/vulture-picture-id512187071?k=20&m=512187071&s=612x612&w=0&h=UAGQJTCK5LBMUHb1qAopc5_5hk8evu0QNutZtY3mit4=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.swan-mb {
+    background-image: url("https://media.istockphoto.com/photos/birds-on-vancouver-island-british-columbia-picture-id1385239252?k=20&m=1385239252&s=612x612&w=0&h=QijVVubXJSYs2pSAH6u7skAowwpI0ANptSVVHEO50cI=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.king-fisher-mb {
+    background-image: url("https://media.istockphoto.com/photos/diving-kingfisher-picture-id824759896?k=20&m=824759896&s=612x612&w=0&h=lgnyhQi3DV9HsE2HhFcGZmBRTvYzE4S4CBi-ZnPu5Iw=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.keel-billed-toucan-mb {
+    background-image: url("https://media.istockphoto.com/photos/toucan-bird-in-costa-rica-ramphastos-sulfuratus-picture-id469024386?k=20&m=469024386&s=612x612&w=0&h=JqkismPt1v3PDB8y4gFQZPJh-VrOq49aWF52UDKsM_k=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.humming-bird-mb {
+    background-image: url("https://media.istockphoto.com/photos/hummingbird-andean-emerald-picture-id501904800?k=20&m=501904800&s=612x612&w=0&h=PsrqXaKetMD_VMh_Al4FVxrTZLjkZRehAKuYCbc8_bs=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.flamingo-mb {
+    background-image: url("https://media.istockphoto.com/photos/flamingo-picture-id1158963082?k=20&m=1158963082&s=612x612&w=0&h=k8_io7r0uAallcgvJpKHDLj60RjkJt2nZbQYs1oSYGE=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.turkey-mb {
+    background-image: url("https://media.istockphoto.com/photos/portrait-of-a-turkey-on-a-black-background-picture-id1320003973?k=20&m=1320003973&s=612x612&w=0&h=ZV3mMn0QtyrsogYd8uxfvS4DtVX6RpRg7_2HfWfKiSs=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.penguin-mb {
+    background-image: url("https://media.istockphoto.com/photos/the-humboldt-penguins-swim-in-the-water-picture-id1289679600?k=20&m=1289679600&s=612x612&w=0&h=rWFulpycGIGKftw4W8NDvaCGHAx-x0JZX2GF7Itd9cY=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.tiger-lg {
+    background-image: url("https://media.istockphoto.com/photos/tiger-cub-playing-with-mother-picture-id1339455923?b=1&k=20&m=1339455923&s=170667a&w=0&h=Xc-CLg4t-38_XkX0v_44osS4BbrlkLuBIOlS4zSp2FQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.peacock-lg {
+    background-image: url("https://media.istockphoto.com/photos/peacock-or-common-peafowl-in-kanha-national-park-in-india-picture-id1291619185?b=1&k=20&m=1291619185&s=170667a&w=0&h=jsWh8CSLNEwO9tUy_CIhgB1nfrI3974tq5GLm_Pnozs=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.ostrich-lg {
+    background-image: url("https://media.istockphoto.com/photos/male-ostrich-striding-across-the-ngorongoro-savanna-tanzania-africa-picture-id618977828?k=20&m=618977828&s=612x612&w=0&h=Y6HyYhZmTq-qUVjuuD0Lbb_JZDWb_RQfDSGGVoqGzGc=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.leopard-lg {
+    background-image: url("https://media.istockphoto.com/photos/amur-leopard-picture-id1011376038?k=20&m=1011376038&s=612x612&w=0&h=-eb01W2nfWr843KnmRxK6yt7IDFr6vz7P1tbVk1KAUU=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.spotted-hyena-lg {
+    background-image: url("https://media.istockphoto.com/photos/hyena-picture-id1393790073?k=20&m=1393790073&s=612x612&w=0&h=8hvr0HiB3eSYCl9qfu8tdOTzO8ZrTsfE0Vmhcj5RnCM=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.parrots-lg {
+    background-image: url("https://media.istockphoto.com/photos/scarlet-macaws-picture-id157375891?k=20&m=157375891&s=612x612&w=0&h=2T7BVc1riyT2TY61bDBcdpY1-Y8Y4tJDO6568oQy9XY=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.eagle-lg {
+    background-image: url("https://images.unsplash.com/photo-1567161569146-655f67e64017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZWFnbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.vulture-lg {
+    background-image: url("https://media.istockphoto.com/photos/ruppells-griffon-vulture-gyps-rueppellii-picture-id857723250?b=1&k=20&m=857723250&s=170667a&w=0&h=HTKRllFkUIaRxxjFR9GIuWyw4pA35VCRP1e11nb5Ul4=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.swan-lg {
+    background-image: url("https://media.istockphoto.com/photos/white-swan-in-the-sea-watersunrise-shot-picture-id905084466?b=1&k=20&m=905084466&s=170667a&w=0&h=-A1Du7WEIXX_sBHWi5nd2AuCB8r-OjaiFZQvWaVIDkE=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.king-fisher-lg {
+    background-image: url("https://media.istockphoto.com/photos/collared-kingfisher-take-off-picture-id1193728828?k=20&m=1193728828&s=612x612&w=0&h=f7FsgsZT8ZWZRIWKr4OLNtIRelQgWI4-uDVOoU1K7RQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.keel-billed-toucan-lg {
+    background-image: url("https://media.istockphoto.com/photos/toucan-sitting-on-the-branch-in-the-forest-green-vegetation-costa-picture-id1250266235?b=1&k=20&m=1250266235&s=170667a&w=0&h=E3K8_9ATSsWElU46148GSKfkIELeYiEhtlOYDqA01CQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.humming-bird-lg {
+    background-image: url("https://media.istockphoto.com/photos/male-rufous-hummingbird-picture-id1301435373?b=1&k=20&m=1301435373&s=170667a&w=0&h=_h8I2FpI8dwBdZo3eKBtqNC9MUeQeW8JasesMSgreHA=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.flamingo-lg {
+    background-image: url("https://images.unsplash.com/photo-1610847033737-0c62d8d14534?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZsYW1pbmdvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.turkey-lg {
+    background-image: url("https://images.unsplash.com/photo-1610847188112-fda7a87b39a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHVya2V5JTIwYmlyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.penguin-lg {
+    background-image: url("https://media.istockphoto.com/photos/emperor-penguin-picture-id1358219733?b=1&k=20&m=1358219733&s=170667a&w=0&h=N48CzvyBFMyMwe6SdkZv55aUHX79R-qmfxJEVwJdD0U=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.zebra-lg {
+    background-image: url("https://media.istockphoto.com/photos/zebra-running-and-jumping-picture-id483230252?k=20&m=483230252&s=612x612&w=0&h=77adIOrFQYaQw285-gfprnq7WwD1xLjk75P1_63yZ28=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.spotted-deer-lg {
+    background-image: url("https://media.istockphoto.com/photos/spotted-deer-male-corbett-india-picture-id178574885?k=20&m=178574885&s=612x612&w=0&h=5YVJRiKw_37k6W8tcsUr1WjXxYuVxigfnlfZljxZe3E=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.wild-bear-lg {
+    background-image: url("https://media.istockphoto.com/photos/large-carpathian-brown-bear-portrait-in-the-woods-europe-romania-picture-id1017220160?k=20&m=1017220160&s=612x612&w=0&h=FeQGgRqADxDuOj1B2ImNvX5DsT30LKqyJQm2rMSBP14=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.black-panther-lg {
+    background-image: url("https://media.istockphoto.com/photos/black-leopard-picture-id471706853?k=20&m=471706853&s=612x612&w=0&h=Q_O5r3karLWeugFSaGcXvo9x8f37TSTQ0kCF206i56I=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.giraffe-lg {
+    background-image: url("https://media.istockphoto.com/photos/heads-of-two-giraffes-in-front-of-green-trees-picture-id119356838?k=20&m=119356838&s=612x612&w=0&h=txVbd2kdCV6bTXlSGfw9rpdhuBLTi5jORnOKTfrUnTg=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.cheetah-lg {
+    background-image: url("https://images.unsplash.com/photo-1538100951519-36a3de1136c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2hlZXRhaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.mountain-lion-lg {
+    background-image: url("https://media.istockphoto.com/photos/puma-concolor-picture-id98215577?k=20&m=98215577&s=612x612&w=0&h=it4IiHCrFaM-BiNrj0tGa97TtLvxoUlH8tQFog-VwrY=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.elephant-lg {
+    background-image: url("https://media.istockphoto.com/photos/background-elephant-picture-id479667835?b=1&k=20&m=479667835&s=170667a&w=0&h=rWQA6W3zmY1ZonjKL66Sgcs8PF2S40qLB303YgEooaQ=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 30px;
+    padding-left: 12px;
+    padding-top: 50vh;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+li {
+    color: white;
+}
+
+.african-lion-mb {
+    background-image: url("https://images.unsplash.com/photo-1545137418-4f1e60820cd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFmcmljYW4lMjBsaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 30px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.tiger-mb {
+    background-image: url("https://images.unsplash.com/photo-1615474286632-e31ac3633d58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRpZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.peacock-mb {
+    background-image: url("https://images.unsplash.com/photo-1547707188-cdbffa0bc270?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBlYWNvY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.parrots-mb {
+    background-image: url("https://media.istockphoto.com/photos/red-scarlet-macaw-in-flight-picture-id495763856?k=20&m=495763856&s=612x612&w=0&h=dzy9si2WFos7gLP0pn9UIGnLtZy1ayLsMpeumazI-b0=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.ostrich-mb {
+    background-image: url("https://media.istockphoto.com/photos/ostrich-picture-id172858952?k=20&m=172858952&s=612x612&w=0&h=6gZz2cd9lfwRGxAHDHaHUhQXPiCedPj-DdOAovqdPwc=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.zebra-mb {
+    background-image: url("https://media.istockphoto.com/photos/vertical-portrait-of-an-adult-zebra-standing-at-the-edge-of-river-picture-id1286424287?k=20&m=1286424287&s=612x612&w=0&h=KBprf9j89jt6xBvgmsQYrtnlwpOEqqwDHXOA_EP0nNs=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.spotted-deer-mb {
+    background-image: url("https://media.istockphoto.com/photos/male-axis-deer-with-dried-felt-hanging-from-antlers-picture-id697732428?k=20&m=697732428&s=612x612&w=0&h=YKRErR42BjgPnYCRUIiSroyTozYcIB71gffFqaPCs48=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.wild-bear-mb {
+    background-image: url("https://media.istockphoto.com/photos/big-brown-bear-standing-on-his-hind-legs-picture-id1030170454?k=20&m=1030170454&s=612x612&w=0&h=Hg08F4wsPssyvFkNsHpED3YLm5z37OAT0t-vh_RBLVs=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.giraffe-mb {
+    background-image: url("https://images.unsplash.com/photo-1534567110243-8875d64ca8ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2lyYWZmZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.spotted-hyena-mb {
+    background-image: url("https://media.istockphoto.com/photos/spotted-hyaena-south-africa-picture-id165094990?k=20&m=165094990&s=612x612&w=0&h=8AVEQDwJS_WqTizsAS1NDFOXMjYKRr96euRxUSmmrXw=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.leopard-mb {
+    background-image: url("https://media.istockphoto.com/photos/pula-picture-id1297760770?k=20&m=1297760770&s=612x612&w=0&h=cz-LRl_OkDImHbXoIjYUq5tnhMvGhKQpQZ418k2akdc=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.black-panther-mb {
+    background-image: url("https://media.istockphoto.com/photos/leopard-picture-id184906316?k=20&m=184906316&s=612x612&w=0&h=Qp419KxfI8L6IgWGTSBZl6gEk1fHcWf6fQqrHABsem4=");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.cheetah-mb {
+    background-image: url("https://images.unsplash.com/photo-1582425312148-de9955e68e45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hlZXRhaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.mountain-lion-mb {
+    background-image: url("https://images.unsplash.com/photo-1527720175429-214744972b4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBsaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.elephant-mb {
+    background-image: url("https://images.unsplash.com/photo-1551316679-9c6ae9dec224?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGVsZXBoYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.upi-pic {
+    width: 15%;
+    margin: 15px;
+}
+
+.payment-icon {
+    text-align: center;
+    font-size: 80px;
+    margin: 20px;
+}
+
+.payment-icon-sm {
+    text-align: center;
+    font-size: 45px;
+    margin: 10px;
+}
+
+.bg-ticket {
+    background-color: #e3ddd3;
+    padding: 10px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+
+.back {
+
+    width: 30px;
+
+}
+
+.bg-mammal {
+    background-image: url("https://media.istockphoto.com/photos/herd-of-female-antelope-picture-id158434617?k=20&m=158434617&s=612x612&w=0&h=pYYrzzBsnj6H5v79VFrNDJgVuqx0LSujYJsCj-sIcWo=");
+    height: 40vh;
+    background-size: cover;
+    font-family: "bree serif";
+    margin-bottom: 20px
+}
+
+.bg-Birds {
+    background-image: url("https://media.istockphoto.com/photos/eastern-bluebirds-male-and-female-picture-id183412466?k=20&m=183412466&s=612x612&w=0&h=xaDRkk-cq7jZglzGO-UTn8Y0tNMHqFBnI5-tIzM68c0=");
+    height: 40vh;
+    background-size: cover;
+    font-family: "bree serif";
+
+}
+
+.bg-Reptiles {
+    background-image: url("https://media.istockphoto.com/photos/lizard-close-up-animal-portrait-picture-id618338970?k=20&m=618338970&s=612x612&w=0&h=UVygNVLpa4Gmw7FfVBV8M-qycfBzT6REJ9AJ2uYaR90=");
+    height: 40vh;
+    background-size: cover;
+    font-family: "bree serif";
+
+}
+
+.bg-aquatic {
+    background-image: url("https://media.istockphoto.com/photos/jellyfish-3-picture-id469858644?b=1&k=20&m=469858644&s=170667a&w=0&h=3cWfoG0tnUOo7QgC5QwYk7Mnf8UA5iDF2MsRp5jLmPA=");
+    height: 40vh;
+    background-size: cover;
+    font-family: "bree serif";
+
+}
+
+.contact-card {
+    background-color: #454d54;
+    text-align: center;
+}
+
+.icon-card {
+    background-color: #749299;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.explore {
+    text-decoration: underline;
+    font-family: "bree serif";
+}
+
+
+.bg-mainpage {
+    background-image: url("https://img.freepik.com/free-vector/border-template-with-cute-animals_1308-40340.jpg?size=626&ext=jpg&ga=GA1.2.1233898914.1654437206");
+    height: 100vh;
+    background-size: cover;
+    font-family: "Bree serif";
+    color: Black;
+
+}
+a {
+    text-decoration: none !important;
+}
+
+@media (max-width:768px) {
+
+
+    .bg-mainpage {
+        background-image: url("https://media.istockphoto.com/photos/leopard-picture-id184906316?k=20&m=184906316&s=612x612&w=0&h=Qp419KxfI8L6IgWGTSBZl6gEk1fHcWf6fQqrHABsem4=");
+        height: 100vh;
+        background-size: cover;
+        font-family: "Bree serif";
+        color: white;
+
+    }
+}
+
+
+
+.bg1 {
+    background-image: linear-gradient(to right, #ed5b2b, #47c6ed);
+}
+
+
+
+.main-page-heading-section {
+    font-size: 22px;
+}
+
+.main-page-heading-section1 {
+    font-size: 56px;
+}
+
+h5 {
+    padding-bottom: 20px;
+}
+
+
+.main-page-button {
+    width: 190px;
+    height: 45px;
+    border-style: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #9debe2, #f280c9);
+    font-size: 20px;
+    color: #283ced;
+    font-weight: 500;
+    margin-top: 60vh;
+}
+
+.icon {
+    width: 100px;
+    color: black !important;
+}
+
+.explore-card {
+    border-radius: 20px;
+    width: 100%;
+
+    border-radius: 8px;
+    background-color: #dcd1de;
+    padding: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+
+.explore-card-pic {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.explore-pic {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.act:active,.act:hover{
+    color:green;
+}

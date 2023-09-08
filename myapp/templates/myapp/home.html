@@ -1,0 +1,88 @@
+{%extends "base.html"%}
+
+{%block title%}home Page{%endblock%}
+
+{%block content%}
+    <div class="container-fluid p-0 m-0">
+        <div class="row">
+            <div class="col-12 ">
+                <a href="{%url "main_page" %}"><svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="#47c6ed" class="bi bi-arrow-left-circle-fill back ml-2 mt-2" onclick="display('section-mainpage')" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                </svg>
+                 </a>
+            </div>
+            <div class="col-12 mt-2">
+                <h3> <span class=" text-dark ml-2  explore">Explore </span> ...</h3>
+            </div>
+            <div class="col-12">
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="1000">
+                            <img src="https://media.istockphoto.com/photos/asiatic-elephant-bull-in-musth-as-it-chases-everything-around-the-picture-id1307425998?b=1&k=20&m=1307425998&s=170667a&w=0&h=guLk9V578cSjM5-L24kmSaHuOAc1e7mHvwr8FI7dpVQ=" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1000">
+                            <img src="https://media.istockphoto.com/photos/the-african-king-picture-id492611032?b=1&k=20&m=492611032&s=170667a&w=0&h=N2XomC94RQDk0CowLsZXeyn7xElYodJNVpKcVO6-b7E=" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1000">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcAEvJSOHpXQVkfLd5kMrgssBZXtce-iGmqw&usqp=CAU" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-interval="1000">
+                            <img src="https://media.istockphoto.com/photos/python-snake-portrait-picture-id637614918?b=1&k=20&m=637614918&s=170667a&w=0&h=RpqeGM5agDKC9oe4OGJN4upoQJlo-XgeYfnD54c5bQE=" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 m-3">
+                <h3 style="color:#69027d; font-weight:bold">Animal Categories</h3>
+
+            </div>
+            
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="explore-card text-center" onclick="display('section-mammal')">
+                    <a href="{%url "animal_section" %}" style="color:black; text-decoration=none;">
+                    <img src="https://media.istockphoto.com/photos/elephant-and-lion-picture-id1136053333?k=20&m=1136053333&s=612x612&w=0&h=6SrS-WC_qfJji7a3KQlmHJdO-1uHxtike9YPMpqMnkw=" class="explore-pic" />
+                    <h2 class="pb-2" >Animals</h2>
+                </a>
+                </div>
+            </div>
+       
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="explore-card text-center" onclick="display('section-Birds')">
+                    <a href="{%url "bird_section"%}" style="color:black; text-decoration=none;">
+                    <img src="https://media.istockphoto.com/photos/robin-picture-id1030966828?k=20&m=1030966828&s=612x612&w=0&h=CuwGEu8eQudZ-xa-oWAnzUaP7tGT_dMNVdqvKX0EupQ=" class="explore-pic" />
+                    <h2 class="pb-2">Birds</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="explore-card text-center" onclick="display('section-Reptiles')">
+                    <a href="{%url "reptile_section" %}" style="color:black; text-decoration=none;">
+
+                    <img src="https://cdn.pixabay.com/photo/2015/06/09/21/09/lizard-804114__340.jpg" class="explore-pic" />
+                    <h2 class="pb-2">Reptiles</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="explore-card text-center" onclick="display('section-aquatic')">
+                    <a href="{%url "aquatic_section"%}" style="color:black; text-decoration=none;">
+
+                    <img src="https://media.istockphoto.com/photos/clownfish-in-maldives-picture-id1218573748?k=20&m=1218573748&s=612x612&w=0&h=i0O426aPbmdpK9DUz6xJdTmF9nGQIvCQZPZGVuacyQk=" class="explore-pic" />
+                    <h2 class="pb-2">Aquatic life</h2>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+{%endblock%}

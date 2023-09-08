@@ -1,0 +1,47 @@
+{%extends 'base.html'%}
+{%block title%}
+    payment Page
+{%endblock%}
+{%block content%}
+<div id="section-load">
+    <a href="{%url "tickets_page"%}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="#47c6ed" class="bi bi-arrow-left-circle-fill back ml-2 mt-2" onclick="display('section-Tickets')" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+    </svg>
+    </a>
+    <div class="d-flex justify-content-center mt-5">
+        <div class="spinner-border mt-5 " role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+
+    </div>
+    <div class="text-center">
+        <h3 style="color:#75726c; font-weight:bold; font-family:Roboto" class="ml-2 mt-5 mb-3 mr-2 d-none d-md-block">Transaction is under-process,<span style="color:#f04037;"> Don't Press any key </span>........</h3>
+        <p style="color:#75726c; font-weight:bold; font-size:17px; font-family:Roboto" class="ml-2 mb-3 mt-5 mr-2  d-md-none">Transaction is under-process,<span style="color:#f04037;"> Don't Press any key </span>......</p>
+    </div>
+    
+</div>
+{%endblock%}
+
+{%block contact%}
+<div id="contact-us" class="contact-card p-3 fixed-bottom">
+    <h4 style="color:#ffffff; font-weight:bold;" class="">Contact us</h4>
+    <div class="d-flex flex-row justify-content-center mt-3">
+        <div class="icon-card p-2 mr-3">
+            <a href="mailto:vijaykumar0917@gmail.com" target="-blank"><i style="color:#ffffff;" class="fa-brands fa-google"></i></a>
+        </div>
+        <div class="icon-card p-2 mr-3">
+            <a href="https://instagram.com/_v_i_j_j_u_k_?igshid=YmMyMTA2M2Y=" target="_blank"> <i style="color:#ffffff;" class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="icon-card p-2 mr-3">
+            <a href="https://www.facebook.com/profile.php?id=100082953970109" target="-blank"><i style="color:#ffffff;" class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="icon-card p-2 mr-2">
+            <a href="https://api.whatsapp.com/send/?phone=%2B918008467592&text&type=phone_number&app_absent=0" target="_blank"><i style="color:#ffffff;" class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </div>
+    <hr style="background-color:white; width:95%;" />
+    <h5 style="color:#edf7fa; margin:20px;"> HTML, CSS, BOOTSTRAP- 8008467592</h5>
+</div>
+{%endblock%}

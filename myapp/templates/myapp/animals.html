@@ -1,0 +1,65 @@
+{%extends 'base.html'%}
+
+{%block content%}
+<div id="section-mammal">
+    <div class="bg">
+       
+        <div class="container-fluid p-0 m-0">
+            <div class="row">
+                <div class="col-12 ">
+                    <a href="{%url "home_page"%}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="#47c6ed" class="bi bi-arrow-left-circle-fill back ml-2 mt-2" onclick="display('sectionhome')" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    </svg>
+                </a>
+                </div>
+                <div class="col-12 d-none d-sm-block d-md-none {{info.img}} mt-2 p-4">
+                    <h1 style="font-weight:bold;color:#0913db">{{info.title}}</h1>
+                    <h5 style="color:white;">{{info.title}} : {{info.info}}</h5>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-12 d-sm-none  {{info.img}} mt-2 pl-4">
+                    <h4 style="font-weight:bold;color:#0913db">{{info.title}}</h4>
+                    <p style="color:white; font-size:12px">{{info.title}} : {{info.info}}</p>
+
+                </div>
+                <div class="col-12 d-none d-md-block {{info.img}} mt-2 pl-5">
+                    <h1 style="font-weight:bold;color:#0913db; font-size:48px">{{info.title}}</h1>
+                    <h3 style="color:white;">{{info.title}} : {{info.info}}</h3>
+
+                </div>
+                <div class="col-12 d-sm-none">
+                    <h5 style="color:green; font-family:Roboto; font-weight:bold; ">{{info.title}} Species</h5>
+                </div>
+                <div class="col-12 d-none d-sm-block d-md-none">
+                    <h3 style="color:green; font-family:Roboto;font-weight:bold; ">{{info.title}} Species</h3>
+                </div>
+                <div class="col-12 d-none d-md-block">
+                    <h1 style="color:green; font-family:Roboto;font-weight:bold; ">{{info.title}} Species</h1>
+                </div>
+
+                {%for animal in animals %}
+
+                <div class="col-6 col-md-4 col-lg-3" >
+                    <div class="explore-card text-center">
+                        <a href ="{{animal.absolute_url}}">
+                        <img src="{{animal.img}}" class="explore-card-pic" />
+                        <h5 class="d-none d-md-block" style="color:black; font-weight:bold;">{{animal.title}}</h5>
+                        <p class="d-none d-sm-block d-md-none pb-3" style="color:black;font-weight:bold;">{{animal.title}}</p>
+                        <p class=" d-sm-none pb-3" style="color:black;font-size:10px; font-weight:bold;">{{animal.title}}</p>
+                        </a>
+                    </div>
+                </div>
+                {%endfor%}
+
+            </div>
+        </div>
+        
+    </div>
+</div>
+{%endblock%}
