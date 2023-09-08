@@ -50,3 +50,6 @@ def animal_detail(req,name):
     cate=animal.category
     path=cate
     return render(req,"myapp/specificanimal.html",{"animal":animal ,"page":path})
+
+def greet(request):
+    return render(request,"myapp/greet.html",{"req":request})

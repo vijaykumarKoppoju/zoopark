@@ -11,5 +11,6 @@ urlpatterns = [
     path("zoopark/birds",views.bird_page,name="bird_section"),
     path("zoopark/reptiles",views.reptile_page,name="reptile_section"),
     path("zoopark/aquatics",views.aquatic_page,name='aquatic_section'),
-    path("zoopark/<slug:name>",views.animal_detail,name="animal_detail")
+    path("zoopark/<slug:name>",views.animal_detail,name="animal_detail"),
+    path("greet",views.greet) 
 ]
